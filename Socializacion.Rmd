@@ -180,7 +180,10 @@ SOA (1998)
 # Motivación
 
 
-.center[<img src="img/moti1.JPG" width="1500px" />]
+```{r}
+knitr::include_graphics("img/moti1.jpg")
+```
+
 
 
 
