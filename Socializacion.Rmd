@@ -723,7 +723,7 @@ class: inverse, mline, center, middle
 > `r anicon::faa("angle-double-right", animate = "passing")`  Identificación y proposición de variables y factores macroeconómicos para ser evaluados ante diferentes choques en el análisis estratégico de toma de decisiones en ALM.
 
 
-```{r fase1, echo=FALSE, fig.align="center", out.width="60%"}
+```{r fase1, fig.align="center", out.width="60%"}
 knitr::include_graphics("img/fase1.JPG")
 ```
 
