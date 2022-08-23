@@ -1,19 +1,17 @@
 
 
-library(usethis)
+#library(usethis)
 
-usethis::use_git()
-usethis::use_github()
+#usethis::use_git()
+#usethis::use_github()
 
 
-
-git remote add origin https://github.com/juniorjb5/Socialization.git
 
 git add .
-git commit -m "Slides_1"
+git commit -m "Slides_2"
 git push origin main
 
-git push -u origin master
+
 
 
 # Esto lo utilicé para hacer conexión una vez instalado Git
@@ -31,3 +29,6 @@ library(xaringanBuilder)
 
 
 build_pdf("PDF_ICEE_2022.html", complex_slides = TRUE, partial_slides = TRUE)
+
+
+.center[<img src="img/moti1.jpg" width="1500px" />]

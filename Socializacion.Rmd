@@ -298,8 +298,12 @@ class: inverse, mline, center, middle
 
 # Revisión de literatura
 
+```{r literatura, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("img/literatura.JPEG")
+```
 
-.center[<img src="img/literatura.JPEG" width="820px" />]
+
+
 
 
 
@@ -719,7 +723,12 @@ class: inverse, mline, center, middle
 > `r anicon::faa("angle-double-right", animate = "passing")`  Identificación y proposición de variables y factores macroeconómicos para ser evaluados ante diferentes choques en el análisis estratégico de toma de decisiones en ALM.
 
 
-.center[<img src="img/fase1.JPG" width="700px" />]
+```{r fase1, echo=FALSE, fig.align="center", out.width="60%"}
+knitr::include_graphics("img/fase1.JPG")
+```
+
+
+
 
 
 ]
@@ -728,7 +737,9 @@ class: inverse, mline, center, middle
 .panel[.panel-name[Objetivo 1]
 
 
-.center[<img src="img/obj1.JPG" width="900px" />]
+```{r obj1, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("img/obj1.JPG")
+```
 
 
 
@@ -742,8 +753,9 @@ class: inverse, mline, center, middle
 .panel[.panel-name[Objetivo 2]
 
 
-.center[<img src="img/obj2.JPG" width="900px" />]
-
+```{r obj2, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("img/obj2.JPG")
+```
 
 
 > `r anicon::faa("angle-double-right", animate = "passing")`  (Bai & Ng, 2008; Gasparrini, 2011).
@@ -756,7 +768,11 @@ class: inverse, mline, center, middle
 .panel[.panel-name[Objetivo 3]
 
 
-.center[<img src="img/obj3.JPG" width="900px" />]
+```{r obj3, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("img/obj3.JPG")
+```
+
+
 
 
 
@@ -770,7 +786,9 @@ class: inverse, mline, center, middle
 .panel[.panel-name[Objetivo 4]
 
 
-.center[<img src="img/obj4.JPG" width="900px" />]
+```{r obj4, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("img/obj4.JPG")
+```
 
 
 
@@ -816,8 +834,13 @@ class: inverse, mline, center, middle
 
 ### Publicados
 
+.pull-left-narrow[
 
-.pull-left-narrow[.center[<img src="img/Entramado.PNG" width="50px"/>]]
+```{r Entramado, echo=FALSE, fig.align="center", out.width="23%"}
+knitr::include_graphics("img/Entramado.PNG")
+```
+
+]
 
 .pull-right-wide[
 [Assets Liability Management: A bibliometric analysis and topic modeling](https://www.joaquibarandica.com/publication/bibliometric/), 2022 - (with Manotas-Duque, D. F.). ‘ENTRAMADO’
@@ -825,7 +848,11 @@ class: inverse, mline, center, middle
 
 
 
-.pull-left-narrow[.center[<img src="img/NAJEF.JPG" width="50px"/>]]
+.pull-left-narrow[
+```{r NAJEF, echo=FALSE, fig.align="center", out.width="23%"}
+knitr::include_graphics("img/NAJEF.JPG")
+```
+]
 
 .pull-right-wide[
 [Commonality, macroeconomic factors and banking profitability](https://www.joaquibarandica.com/publication/commonality/), 2022 - (with Manotas-Duque, D. F., Uribe, J.M.). ‘THE NORTH AMERICAN JOURNAL OF ECONOMICS AND FINANCE’
@@ -836,7 +863,12 @@ class: inverse, mline, center, middle
 ### En revisión
 
 
-.pull-left-narrow[.center[<img src="img/ej.PNG" width="50px"/>]]
+.pull-left-narrow[
+```{r PNG, echo=FALSE, fig.align="center", out.width="23%"}
+knitr::include_graphics("img/ej.PNG")
+```
+]
+
 
 .pull-right-wide[
 [Common factors in the profitability of energy firms](https://www.joaquibarandica.com) - (with Manotas-Duque, D. F., Uribe, J.M.). ‘THE ENERGY JOURNAL’
@@ -844,7 +876,12 @@ class: inverse, mline, center, middle
 
 
 
-.pull-left-narrow[.center[<img src="img/reports.JPG" width="50px"/>]]
+.pull-left-narrow[
+```{r reports, echo=FALSE, fig.align="center", out.width="23%"}
+knitr::include_graphics("img/reports.JPG")
+```
+]
+
 
 .pull-right-wide[
 [Decision tools from index fund finance to explore the path towards a scenario of renewable energy generation with globalization and high specialization of regional electricity markets](https://www.joaquibarandica.com) - (with Manotas-Duque, D. F., Uribe, J.M.). ‘ENERGY REPORTS’
@@ -865,12 +902,17 @@ class: inverse, mline, center, middle
 
 <br>
 <br>
-<br>
+
 
 ### En desarrollo
 
 
-.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+.pull-left-narrow[
+```{r rueda, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("img/rueda.PNG")
+```
+]
+
 
 .pull-right-wide[
 [Global liquidity and the profitability of energy firms](https://www.joaquibarandica.com/) 
@@ -879,7 +921,12 @@ class: inverse, mline, center, middle
 
 
 
-.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+.pull-left-narrow[
+```{r rueda2, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("img/rueda.PNG")
+```
+]
+
 
 .pull-right-wide[
 [Financial performance of companies in the electricity sector in emerging and developed economies: A pre-pandemic and post-pandemic view](https://www.joaquibarandica.com/) 
@@ -900,7 +947,12 @@ class: inverse, mline, center, middle
 ### Conferencias internacionales
 
 
-.pull-left-narrow[.center[<img src="img/conf_ifabs.JPG" width="150px"/>]]
+.pull-left-narrow[
+```{r ifabs, echo=FALSE, fig.align="center", out.width="70%"}
+knitr::include_graphics("img/conf_ifabs.JPG")
+```
+]
+
 
 .pull-right-wide[
 [Commonality, macroeconomic factors and banking profitability](https://www.joaquibarandica.com/publication/commonality/), 2021 
@@ -908,8 +960,12 @@ class: inverse, mline, center, middle
 ]
 
 
+.pull-left-narrow[
+```{r icee, echo=FALSE, fig.align="center", out.width="70%"}
+knitr::include_graphics("img/conf_icee.JPG")
+```
+]
 
-.pull-left-narrow[.center[<img src="img/conf_icee.JPG" width="150px"/>]]
 
 .pull-right-wide[
 [Global liquidity and the profitability of energy firms](https://www.joaquibarandica.com/) 
@@ -921,7 +977,12 @@ class: inverse, mline, center, middle
 #### Por venir
 
 
-.pull-left-narrow[.center[<img src="img/conf_claio.JPG" width="150px"/>]]
+.pull-left-narrow[
+```{r claio, echo=FALSE, fig.align="center", out.width="70%"}
+knitr::include_graphics("img/conf_claio.JPG")
+```
+]
+
 
 .pull-right-wide[
 [Decision tools from index fund finance to explore the path towards a scenario of renewable energy generation with globalization and high specialization of regional electricity markets](https://www.joaquibarandica.com) 
@@ -943,7 +1004,12 @@ class: inverse, mline, center, middle
 ### Tesis (En desarrollo)
 
 
-.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+.pull-left-narrow[
+```{r rueda3, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("img/rueda.PNG")
+```
+]
+
 
 .pull-right-wide[
 Análisis del desempeño financiero en empresas del sector de la electricidad en Latinoamérica: una comparativa a nivel de mercados emergentes y desarrollados en Colombia
@@ -952,7 +1018,12 @@ Análisis del desempeño financiero en empresas del sector de la electricidad en
 
 
 
-.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+.pull-left-narrow[
+```{r rueda4, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("img/rueda.PNG")
+```
+]
+
 
 .pull-right-wide[
 Modelación no lineal (DLNM) del efecto de factores macroeconómicos sobre el índice MSCI Colombia de capitalización bursátil en el mercado de valores para el periodo 2001 a 2020
@@ -961,7 +1032,12 @@ Modelación no lineal (DLNM) del efecto de factores macroeconómicos sobre el í
 
 
 
-.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+.pull-left-narrow[
+```{r rueda5, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("img/rueda.PNG")
+```
+]
+
 
 .pull-right-wide[
 Modelación del efecto del precio de gas natural sobre el precio de la electricidad: Alemania en tiempo de crisis
