@@ -1,0 +1,999 @@
+---
+title: "Tópicos en gestión de activos y pasivos: una visión comparativa entre economías emergentes y desarrolladas"
+subtitle: "Doctorado en Ingeniería | Énfasis en Ingeniería Industrial"
+author: "Orlando Joaqui-Barandica"
+date: " "
+output: 
+  xaringan::moon_reader:
+    css:
+      - default
+      - mtheme.css
+      - fonts_mtheme.css
+      - sydney.css
+      - rladies
+    includes:
+      in_header: "mathjax-equation-numbers.html"
+    nature: 
+      ratio: 16:9
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+```{r setup, include=FALSE}
+library(knitr)                              # paquete que trae funciones utiles para R Markdown
+library(tidyverse)                          # paquete que trae varios paquetes comunes en el tidyverse
+library(datos)                              # paquete que viene con datos populares traducidos al español :)
+library(shiny)
+library(fontawesome)
+# opciones predeterminadas
+knitr::opts_chunk$set(echo = FALSE,         # FALSE: los bloques de código NO se muestran
+                      dpi = 300,            # asegura gráficos de alta resolución
+                      warning = FALSE,      # los mensajes de advertencia NO se muestran
+                      error = FALSE)        # los mensajes de error NO se muestran
+
+
+options(htmltools.dir.version = FALSE)
+
+```
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+xaringanExtra::use_share_again()
+```
+
+
+class: clear
+
+
+.pull-left[
+
+.center[
+
+<br><br>
+
+```{r echo=FALSE, out.width = "75%" }
+knitr::include_graphics("img/logos.png")
+```
+
+]
+]
+
+
+.pull-right[
+
+
+.center[
+<img style="border-radius: 50%;" src="img/avatar.png"
+width="100px" href="https://www.joaquibarandica.com"
+/>
+
+[Orlando Joaqui-Barandica, M.Sc.](https://www.joaquibarandica.com) <br/>
+Universidad del Valle
+]
+
+
+.center[
+<img style="border-radius: 50%;" src="img/avatar2.PNG"
+width="100px"
+/>
+
+[Diego F. Manotas-Duque, Ph.D.](http://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque) <br>
+Universidad del Valle
+]
+
+.center[
+<img style="border-radius: 50%;" src="img/avatar3.PNG"
+width="100px"
+/>
+
+[Jorge M. Uribe, Ph.D.](https://jorgemuribe.com/) <br>
+Universitat Oberta de Catalunya
+]
+
+]
+
+
+???
+
+
+
+---
+
+
+class: contenido
+
+
+# Contenido
+
+
+.pull-left[
+</br>
+###  `r icon::fa("angle-double-right",  animate = "passing")` <font color="#0A2A1A" size=6> Motivación </font>
+###  `r icon::fa("angle-double-right", animate = "float")` <font color="#0A2A1A" size=6> Revisión de Literatura </font>
+###  `r icon::fa("angle-double-right", animate = "float")` <font color="#0A2A1A" size=6> Objetivos </font>
+###  `r icon::fa("angle-double-right", animate = "float")` <font color="#0A2A1A" size=6> Metodología </font>
+###  `r icon::fa("angle-double-right", animate = "float")` <font color="#0A2A1A" size=6> Productos </font>
+]
+.pull.right[
+
+]
+
+
+
+???
+
+
+
+
+---
+
+
+name: Motivation
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+# Motivación
+
+???
+
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+
+# Motivación
+
+
+## La gestión de activos y pasivos... 
+
+<br>
+
+.center[ 
+.font170[*Asset Liabilities Management "ALM"...*]
+]
+
+<br>
+
+.right[
+.font170[*"El proceso continuo de formular, poner en práctica, supervisar y revisar las estrategias relacionadas con los activos y pasivos, con el fin de alcanzar los objetivos financieros fijados para un conjunto dado de tolerancias y restricciones de riesgo."*
+]
+
+SOA (1998)
+
+]
+
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+# Motivación
+
+
+.center[<img src="img/moti1.JPG" width="1500px" />]
+
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+
+# Motivación
+
+.left-column[
+
+.left[
+
+## Rentabilidad... 
+
+... se define como la capacidad de aprovechar los recursos para generar utilidades, por tanto, es relevante como indicador de una gestión eficaz.
+
+]
+
+]
+
+
+.right-column[
+
+## Características idiosincráticas vs. Fuerzas comunes
+
+.font120[
+Identificar los determinantes de la rentabilidad y anticiparse a sus fluctuaciones garantiza la toma de decisiones oportunas e informadas que maximizan el valor para los grupos de interés de la empresa.
+
+
+.pull-left[
+**Determinantes internos**
+* `Edad`
+* `Tamaño`
+* `Apalancamiento financiero`
+* etc.
+]
+
+
+.pull-right[
+**Determinantes externos**
+* `Precios de combustible`
+* `Tasas de interés`
+* `Tasas de cambio`
+* `Actividad económica`
+* etc.
+
+]
+
+]
+
+]
+
+???
+
+
+
+
+---
+
+<div class="my-logo-right"></div>
+
+
+# Motivación
+
+<div class="rotate"></div>
+
+
+<br>
+
+
+.pull-left[
+
+### `r anicon::faa("angle-double-right", animate = "passing")` Globalización de mercados
+
+
+### `r anicon::faa("angle-double-right", animate = "passing")` Competencia entre empresas
+
+
+### `r anicon::faa("angle-double-right", animate = "passing")` Análisis del entorno
+
+
+### `r anicon::faa("angle-double-right", animate = "passing")` Estrategias de gestión ante la incertidumbre
+
+
+### `r anicon::faa("angle-double-right", animate = "passing")` Entorno macrofinanciero, climático, etc.
+
+]
+
+---
+
+
+name: Literatura
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+# Revisión de literatura
+
+???
+
+
+---
+
+
+
+
+<div class="my-logo-right"></div>
+
+# Revisión de literatura
+
+
+.center[<img src="img/literatura.JPEG" width="820px" />]
+
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  (Joaqui-Barandica & Manotas-Duque, 2022)
+
+---
+
+<div class="my-logo-right"></div>
+
+# Revisión de literatura
+
+<br>
+
+
+### ALM se centra...
+
+<br>
+
+.pull-left[
+
+.font120[
+* ... en el lado de los `activos`, en los riesgos de mercado, crédito y liquidez.
+
+* ... en el lado de los `pasivos`, en las volatilidades de los márgenes y los costos. 
+]
+
+]
+
+.pull-right[
+
+.center[
+
+.font140[**A partir de aquí, el problema de modelación de ALM en la literatura se ha clasificado en `modelos determinísticos` o `modelos estocásticos`**]
+
+]
+
+]
+
+<br>
+<br>
+<br>
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  (Florez, 2005; Zopounidis et al., 2010)
+
+???
+
+
+---
+
+<div class="my-logo-right"></div>
+
+# Revisión de literatura
+
+<br>
+<br>
+
+.pull-left-narrow[.center[`r fontawesome::fa("buffer", height = "5em")`]]
+
+.pull-right-wide[
+
+.font120[
+> La modelación estocástica proporciona un marco de modelado de propósito general, que captura las características del mundo real, tales como restricciones de rotación, costos de transacción, aversión al riesgo, límites en grupos de activos y otras consideraciones.
+
+]
+
+]
+
+
+<hr>
+<br>
+
+
+--
+
+<br>
+
+
+.pull-left-narrow[.center[`r fontawesome::fa("brain", height = "5em")`]]
+
+.pull-right-wide[
+
+.font120[
+> El modelo de optimización puede resultar a veces intratable para la enorme cantidad de variables de decisión que se involucran.
+
+]
+
+]
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+# Revisión de literatura
+
+
+.pull-left[
+
+### Determinantes internos `r anicon::faa("arrow-alt-circle-down", animate = "falling")`
+
+
+
+
+.font120[
+
+> * Le & Ngo (2020)
+> * Kumar et al., (2021)
+> * Duan & Niu (2020)
+> * Fernandes et al., (2021)
+> * Davydov et al., (2021)
+> * Evans & Haq (2021)
+> * ...
+
+]
+
+Encontramos determinantes internos, como la estructura y tamaño de los activos y la estructura financiera y de capital de las instituciones financieras. En este mismo grupo se analizan determinantes internos de carácter operativo.
+
+
+
+]
+
+.pull-right[
+
+### Determinantes externos `r anicon::faa("arrow-alt-circle-down", animate = "falling")`
+
+
+
+.font120[
+
+> * Kanas et al., (2012)
+> * Martins et al., (2019)
+> * Alessandri & Nelson (2015)
+> * Molyneux et al., (2019)
+> * Borio et al., 2017
+> * Detragiache et al., 2018
+> * ...
+
+]
+
+Este grupo de factores incluye determinantes macroeconómicos fundamentales y factores de mercado, como la competencia y la cuota de mercado.
+
+
+
+]
+
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+
+# Revisión de literatura
+
+
+.font180[**En general...**]
+
+
+.font120[
+
+- **Tema 1:** Financiero y económico: Gestión bancaria, sustentabilidad, préstamos y fondos
+
+
+- **Tema 2:** Modelación estocástica
+
+
+- **Tema 3:** Optimización
+
+
+]
+
+--
+
+.right[
+
+.font180[**GAPS...**]
+
+
+.font120[
+
+`Enfoques macroeconómicos`
+
+`Enfoques climáticos`
+
+`Comparativas entre economías emergentes y desarrolladas`
+
+]
+]
+
+
+???
+
+
+
+---
+
+
+name: Objetivos
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+# Objetivos
+
+???
+
+
+
+---
+
+
+class: inverse, mline, center, middle
+
+# Objetivo General
+
+<br>
+<br>
+
+.center[
+.font170[Evaluar las estrategias ALM bajo diferentes estados macroeconómicos, de empresas pertenecientes a distintos sectores económicos, y localizadas en países con distintos grados de desarrollo.
+]
+]
+
+
+---
+
+
+
+class: inverse
+
+
+.pull-left-narrow[
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Objetivos Específicos
+
+
+]
+
+.pull-right-wide[
+
+
+.font110[.left[ 
+
+> - Identificar factores macroeconómicos que determinen indicadores financieros para las empresas o instituciones del sector financiero.
+
+
+]
+]
+]
+
+
+---
+
+
+class: inverse
+
+
+.pull-left-narrow[
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Objetivos Específicos
+
+
+]
+
+.pull-right-wide[
+.font110[.left[ 
+
+> - Identificar factores macroeconómicos que determinen indicadores financieros para las empresas o instituciones del sector financiero.
+
+
+<hr>
+
+
+> - Evaluar el efecto de diferentes escenarios de factores macroeconómicos sobre las decisiones de gestión de activos y pasivos (ALM) de las empresas o instituciones del sector financiero.
+
+
+]
+]
+]
+
+
+---
+
+
+
+
+class: inverse
+
+
+.pull-left-narrow[
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Objetivos Específicos
+
+
+]
+
+.pull-right-wide[
+.font110[.left[ 
+
+> - Identificar factores macroeconómicos que determinen indicadores financieros para las empresas o instituciones del sector financiero.
+
+
+<hr>
+
+
+> - Evaluar el efecto de diferentes escenarios de factores macroeconómicos sobre las decisiones de gestión de activos y pasivos (ALM) de las empresas o instituciones del sector financiero.
+
+<hr>
+
+> - Determinar la composición óptima de portafolios de inversión de diferentes sectores frente a componentes sistemáticos macroeconómicos. 
+
+]
+]
+]
+
+
+---
+
+class: inverse
+
+
+.pull-left-narrow[
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Objetivos Específicos
+
+
+]
+
+.pull-right-wide[
+.font110[.left[ 
+
+> - Identificar factores macroeconómicos que determinen indicadores financieros para las empresas o instituciones del sector financiero.
+
+<hr>
+
+> - Evaluar el efecto de diferentes escenarios de factores macroeconómicos sobre las decisiones de gestión de activos y pasivos (ALM) de las empresas o instituciones del sector financiero.
+
+<hr>
+
+> - Determinar la composición óptima de portafolios de inversión de diferentes sectores frente a componentes sistemáticos macroeconómicos. 
+
+<hr>
+
+> - Identificar la relación existente entre las estrategias de ALM de las empresas o instituciones financieras en países emergentes vs. empresas de países con un mayor desarrollo económico.
+
+
+]
+]
+]
+
+
+
+
+---
+
+
+name: Methodology
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Metodología
+
+???
+
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+
+# Metodología
+
+
+
+.panelset[
+.panel[.panel-name[Fase Inicial]
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  Análisis bibliométrico de las temáticas de ALM.
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  Identificación y proposición de variables y factores macroeconómicos para ser evaluados ante diferentes choques en el análisis estratégico de toma de decisiones en ALM.
+
+
+.center[<img src="img/fase1.JPG" width="700px" />]
+
+
+]
+
+
+.panel[.panel-name[Objetivo 1]
+
+
+.center[<img src="img/obj1.JPG" width="900px" />]
+
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  (Bai & Ng, 2008; Josse & Husson, 2012; McCracken & Ng, 2021; Stock & Watson, 2012; Yao et al., 2005).
+
+
+]
+
+
+
+.panel[.panel-name[Objetivo 2]
+
+
+.center[<img src="img/obj2.JPG" width="900px" />]
+
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  (Bai & Ng, 2008; Gasparrini, 2011).
+
+
+]
+
+
+
+.panel[.panel-name[Objetivo 3]
+
+
+.center[<img src="img/obj3.JPG" width="900px" />]
+
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  (Cornuejols & Tütüncü, 2006; Morgan, 1996; Strub & Baumann, 2018).
+
+
+
+]
+
+
+.panel[.panel-name[Objetivo 4]
+
+
+.center[<img src="img/obj4.JPG" width="900px" />]
+
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  (Escofier & Pagés, 1998; Pagés, 2002).
+
+
+]
+
+
+
+
+]
+
+
+
+???
+
+
+
+
+---
+
+
+name: Results
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Resultados a la fecha
+
+???
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+# Productos
+
+### Publicados
+
+
+.pull-left-narrow[.center[<img src="img/Entramado.PNG" width="50px"/>]]
+
+.pull-right-wide[
+[Assets Liability Management: A bibliometric analysis and topic modeling](https://www.joaquibarandica.com/publication/bibliometric/), 2022 - (with Manotas-Duque, D. F.). ‘ENTRAMADO’
+]
+
+
+
+.pull-left-narrow[.center[<img src="img/NAJEF.JPG" width="50px"/>]]
+
+.pull-right-wide[
+[Commonality, macroeconomic factors and banking profitability](https://www.joaquibarandica.com/publication/commonality/), 2022 - (with Manotas-Duque, D. F., Uribe, J.M.). ‘THE NORTH AMERICAN JOURNAL OF ECONOMICS AND FINANCE’
+]
+
+--
+
+### En revisión
+
+
+.pull-left-narrow[.center[<img src="img/ej.PNG" width="50px"/>]]
+
+.pull-right-wide[
+[Common factors in the profitability of energy firms](https://www.joaquibarandica.com) - (with Manotas-Duque, D. F., Uribe, J.M.). ‘THE ENERGY JOURNAL’
+]
+
+
+
+.pull-left-narrow[.center[<img src="img/reports.JPG" width="50px"/>]]
+
+.pull-right-wide[
+[Decision tools from index fund finance to explore the path towards a scenario of renewable energy generation with globalization and high specialization of regional electricity markets](https://www.joaquibarandica.com) - (with Manotas-Duque, D. F., Uribe, J.M.). ‘ENERGY REPORTS’
+]
+
+
+
+
+---
+
+
+
+
+<div class="my-logo-right"></div>
+
+# Productos
+
+
+<br>
+<br>
+<br>
+
+### En desarrollo
+
+
+.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+
+.pull-right-wide[
+[Global liquidity and the profitability of energy firms](https://www.joaquibarandica.com/) 
+- (with Manotas-Duque, D. F., Uribe, J.M.).
+]
+
+
+
+.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+
+.pull-right-wide[
+[Financial performance of companies in the electricity sector in emerging and developed economies: A pre-pandemic and post-pandemic view](https://www.joaquibarandica.com/) 
+- (with Manotas-Duque, D. F., Uribe, J.M.).
+]
+
+
+
+---
+
+
+
+
+<div class="my-logo-right"></div>
+
+# Productos
+
+### Conferencias internacionales
+
+
+.pull-left-narrow[.center[<img src="img/conf_ifabs.JPG" width="150px"/>]]
+
+.pull-right-wide[
+[Commonality, macroeconomic factors and banking profitability](https://www.joaquibarandica.com/publication/commonality/), 2021 
+- **IFABS 2021 - OXFORD (Virtual)** *(with Manotas-Duque, D. F., Uribe, J.M.).*
+]
+
+
+
+.pull-left-narrow[.center[<img src="img/conf_icee.JPG" width="150px"/>]]
+
+.pull-right-wide[
+[Global liquidity and the profitability of energy firms](https://www.joaquibarandica.com/) 
+- **ICEE 2022 - PORTO, PORTUGAL*** *(with Manotas-Duque, D. F., Uribe, J.M.).*
+]
+
+--
+
+#### Por venir
+
+
+.pull-left-narrow[.center[<img src="img/conf_claio.JPG" width="150px"/>]]
+
+.pull-right-wide[
+[Decision tools from index fund finance to explore the path towards a scenario of renewable energy generation with globalization and high specialization of regional electricity markets](https://www.joaquibarandica.com) 
+- **CLAIO 2022 - BUENOS AIRES - ARGENTINA** *(with Manotas-Duque, D. F., Uribe, J.M.).*
+]
+
+
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+# Productos
+
+
+### Tesis (En desarrollo)
+
+
+.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+
+.pull-right-wide[
+Análisis del desempeño financiero en empresas del sector de la electricidad en Latinoamérica: una comparativa a nivel de mercados emergentes y desarrollados en Colombia
+- Tesis Maestría en Ingeniería Industrial - *Universidad del Valle*.
+]
+
+
+
+.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+
+.pull-right-wide[
+Modelación no lineal (DLNM) del efecto de factores macroeconómicos sobre el índice MSCI Colombia de capitalización bursátil en el mercado de valores para el periodo 2001 a 2020
+- Tesis Pregrado en Estadística - *Universidad del Valle*
+]
+
+
+
+.pull-left-narrow[.center[<img src="img/rueda.PNG" width="100px"/>]]
+
+.pull-right-wide[
+Modelación del efecto del precio de gas natural sobre el precio de la electricidad: Alemania en tiempo de crisis
+- Tesis Pregrado en Estadística - *Universidad del Valle*
+]
+
+---
+
+
+
+
+
+class: inverse, mline, center, bottom
+
+<div class="my-logo-center"></div>
+
+
+# Gracias !!!
+
+<br>
+<br>
+
+
+
+
+`r anicon::faa("envelope", animate = "passing")` orlando.joaqui@correounivalle.edu.co .font140[**|**] `r anicon::faa("envelope", animate = "passing")` diego.manotas@correounivalle.edu.co .font140[**|**] `r anicon::faa("envelope", animate = "passing")` juribeg@uoc.edu
+
+<br>
+<br>
+<br>
+<br>
+
+???
+
+Diapositiva 14 – Thanks
+
+Thank you very much for your attention. Again, I apologize for my imperfect pronunciation. Is there any question?
+
