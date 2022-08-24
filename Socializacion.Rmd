@@ -1052,7 +1052,34 @@ Modelación del efecto del precio de gas natural sobre el precio de la electrici
 
 class: inverse, mline, center, bottom
 
-<div class="my-logo-center"></div>
+<div class="my-logo-right"></div>
+
+
+<br>
+
+
+.pull-left[
+
+```{r qr, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("img/qr-code.png")
+```
+
+<br>
+<br>
+<br>
+
+.center[
+www.joaquibarandica.com
+]
+
+]
+
+
+.pull-right[
+
+<br>
+<br>
+<br>
 
 
 # Gracias !!!
@@ -1063,16 +1090,19 @@ class: inverse, mline, center, bottom
 
 
 
-`r anicon::faa("envelope", animate = "passing")` orlando.joaqui@correounivalle.edu.co .font140[**|**] `r anicon::faa("envelope", animate = "passing")` diego.manotas@correounivalle.edu.co .font140[**|**] `r anicon::faa("envelope", animate = "passing")` juribeg@uoc.edu
+.font140[**|**] `r anicon::faa("envelope", animate = "passing")` orlando.joaqui@correounivalle.edu.co
+
+.font140[**|**] `r anicon::faa("envelope", animate = "passing")` diego.manotas@correounivalle.edu.co
+
+.font140[**|**] `r anicon::faa("envelope", animate = "passing")` juribeg@uoc.edu
 
 <br>
 <br>
 <br>
 <br>
+
+]
 
 ???
 
-Diapositiva 14 – Thanks
-
-Thank you very much for your attention. Again, I apologize for my imperfect pronunciation. Is there any question?
 
