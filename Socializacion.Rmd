@@ -299,7 +299,7 @@ class: inverse, mline, center, middle
 # Revisión de literatura
 
 ```{r literatura, fig.align="center", out.width="80%"}
-knitr::include_graphics("img/literatura.JPG")
+knitr::include_graphics("img/literatura.jpg")
 ```
 
 
