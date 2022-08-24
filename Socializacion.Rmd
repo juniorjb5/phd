@@ -180,10 +180,10 @@ SOA (1998)
 # Motivación
 
 
-
 ```{r}
-knitr::include_graphics("img/literatura.jpg")
+knitr::include_graphics("img/moti1.jpg")
 ```
+
 
 
 
@@ -724,7 +724,7 @@ class: inverse, mline, center, middle
 
 
 ```{r fase1, fig.align="center", out.width="60%"}
-knitr::include_graphics("img/fase1.JPG")
+knitr::include_graphics("img/fase1.jpg")
 ```
 
 
@@ -738,7 +738,7 @@ knitr::include_graphics("img/fase1.JPG")
 
 
 ```{r obj1, echo=FALSE, fig.align="center", out.width="80%"}
-knitr::include_graphics("img/obj1.JPG")
+knitr::include_graphics("img/obj1.jpg")
 ```
 
 
@@ -754,7 +754,7 @@ knitr::include_graphics("img/obj1.JPG")
 
 
 ```{r obj2, echo=FALSE, fig.align="center", out.width="80%"}
-knitr::include_graphics("img/obj2.JPG")
+knitr::include_graphics("img/obj2.jpg")
 ```
 
 
@@ -769,7 +769,7 @@ knitr::include_graphics("img/obj2.JPG")
 
 
 ```{r obj3, echo=FALSE, fig.align="center", out.width="80%"}
-knitr::include_graphics("img/obj3.JPG")
+knitr::include_graphics("img/obj3.jpg")
 ```
 
 
@@ -787,7 +787,7 @@ knitr::include_graphics("img/obj3.JPG")
 
 
 ```{r obj4, echo=FALSE, fig.align="center", out.width="80%"}
-knitr::include_graphics("img/obj4.JPG")
+knitr::include_graphics("img/obj4.jpg")
 ```
 
 
@@ -837,7 +837,7 @@ class: inverse, mline, center, middle
 .pull-left-narrow[
 
 ```{r Entramado, echo=FALSE, fig.align="center", out.width="23%"}
-knitr::include_graphics("img/Entramado.PNG")
+knitr::include_graphics("img/Entramado.png")
 ```
 
 ]
@@ -850,7 +850,7 @@ knitr::include_graphics("img/Entramado.PNG")
 
 .pull-left-narrow[
 ```{r NAJEF, echo=FALSE, fig.align="center", out.width="23%"}
-knitr::include_graphics("img/NAJEF.JPG")
+knitr::include_graphics("img/NAJEF.jpg")
 ```
 ]
 
@@ -865,7 +865,7 @@ knitr::include_graphics("img/NAJEF.JPG")
 
 .pull-left-narrow[
 ```{r PNG, echo=FALSE, fig.align="center", out.width="23%"}
-knitr::include_graphics("img/ej.PNG")
+knitr::include_graphics("img/ej.png")
 ```
 ]
 
@@ -878,7 +878,7 @@ knitr::include_graphics("img/ej.PNG")
 
 .pull-left-narrow[
 ```{r reports, echo=FALSE, fig.align="center", out.width="23%"}
-knitr::include_graphics("img/reports.JPG")
+knitr::include_graphics("img/reports.jpg")
 ```
 ]
 
@@ -909,7 +909,7 @@ knitr::include_graphics("img/reports.JPG")
 
 .pull-left-narrow[
 ```{r rueda, echo=FALSE, fig.align="center", out.width="50%"}
-knitr::include_graphics("img/rueda.PNG")
+knitr::include_graphics("img/rueda.png")
 ```
 ]
 
@@ -923,7 +923,7 @@ knitr::include_graphics("img/rueda.PNG")
 
 .pull-left-narrow[
 ```{r rueda2, echo=FALSE, fig.align="center", out.width="50%"}
-knitr::include_graphics("img/rueda.PNG")
+knitr::include_graphics("img/rueda.png")
 ```
 ]
 
@@ -949,7 +949,7 @@ knitr::include_graphics("img/rueda.PNG")
 
 .pull-left-narrow[
 ```{r ifabs, echo=FALSE, fig.align="center", out.width="70%"}
-knitr::include_graphics("img/conf_ifabs.JPG")
+knitr::include_graphics("img/conf_ifabs.jpg")
 ```
 ]
 
@@ -962,7 +962,7 @@ knitr::include_graphics("img/conf_ifabs.JPG")
 
 .pull-left-narrow[
 ```{r icee, echo=FALSE, fig.align="center", out.width="70%"}
-knitr::include_graphics("img/conf_icee.JPG")
+knitr::include_graphics("img/conf_icee.jpg")
 ```
 ]
 
@@ -979,7 +979,7 @@ knitr::include_graphics("img/conf_icee.JPG")
 
 .pull-left-narrow[
 ```{r claio, echo=FALSE, fig.align="center", out.width="70%"}
-knitr::include_graphics("img/conf_claio.JPG")
+knitr::include_graphics("img/conf_claio.jpg")
 ```
 ]
 
@@ -1006,7 +1006,7 @@ knitr::include_graphics("img/conf_claio.JPG")
 
 .pull-left-narrow[
 ```{r rueda3, echo=FALSE, fig.align="center", out.width="50%"}
-knitr::include_graphics("img/rueda.PNG")
+knitr::include_graphics("img/rueda.png")
 ```
 ]
 
@@ -1020,7 +1020,7 @@ Análisis del desempeño financiero en empresas del sector de la electricidad en
 
 .pull-left-narrow[
 ```{r rueda4, echo=FALSE, fig.align="center", out.width="50%"}
-knitr::include_graphics("img/rueda.PNG")
+knitr::include_graphics("img/rueda.png")
 ```
 ]
 
@@ -1034,7 +1034,7 @@ Modelación no lineal (DLNM) del efecto de factores macroeconómicos sobre el í
 
 .pull-left-narrow[
 ```{r rueda5, echo=FALSE, fig.align="center", out.width="50%"}
-knitr::include_graphics("img/rueda.PNG")
+knitr::include_graphics("img/rueda.png")
 ```
 ]
 
