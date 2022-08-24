@@ -837,7 +837,7 @@ class: inverse, mline, center, middle
 .pull-left-narrow[
 
 ```{r Entramado, echo=FALSE, fig.align="center", out.width="23%"}
-knitr::include_graphics("img/Entramado.png")
+knitr::include_graphics("img/entramado.png")
 ```
 
 ]
