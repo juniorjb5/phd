@@ -180,10 +180,10 @@ SOA (1998)
 # Motivación
 
 
-```{r}
-knitr::include_graphics("img/moti1.jpg")
-```
 
+```{r}
+knitr::include_graphics("img/literatura.jpg")
+```
 
 
 
