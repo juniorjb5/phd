@@ -99,7 +99,11 @@ Universitat Oberta de Catalunya
 
 ???
 
+Buenas tardes, el día de hoy socializaré mi propuesta de investigación doctoral en tópicos de activos y pasivos: una visión comparativa entre economías emergentes y desarrolladas.
 
+Esta tesis doctoral está bajo la dirección del profesor Diego Manotas de la Escuela de Ing. Industrial de la Universidad del Valle. Y el profesor Jorge M. Uribe de la Universitat Oberta de Catalunya..
+
+Este trabajo de investigación está integrado al grupo de investigación GIFINC de la Esc. de Ing. Ind.
 
 ---
 
@@ -126,7 +130,15 @@ class: contenido
 
 ???
 
+El día de hoy.. iniciaré presentado la motivación de esta investigación,,
 
+Seguido de la revisión de literatura y antecedentes en el marco de este tema de gestión de activos y pasivos.
+
+Enunciaré los objetivos establecidos en mi propuesta doctoral.
+
+Paso seguido mostraré las fases metodológicas propuestas para lograr los objetivos planteados,
+
+y... por último comentaré... algunos productos obtenidos a la fecha.
 
 
 ---
@@ -134,7 +146,7 @@ class: contenido
 
 name: Motivation
 class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
+
 
 
 # Motivación
@@ -146,7 +158,7 @@ class: inverse, mline, center, middle
 ---
 
 
-<div class="my-logo-right"></div>
+
 
 
 # Motivación
@@ -157,7 +169,7 @@ class: inverse, mline, center, middle
 <br>
 
 .center[ 
-.font170[*Asset Liabilities Management "ALM"...*]
+.font170[*Asset Liability Management "ALM"...*]
 ]
 
 <br>
@@ -170,12 +182,23 @@ SOA (1998)
 
 ]
 
+???
+
+Primero, es importante definir el concepto de "Gestión de activos y pasivos" conocido en inglés como "Asset liability management" el cual se aplica sobre las empresas y se  define como: ...
+
+Nótese que el concepto en si mismo.. presenta interacción entre TRES GRANDES ASPECTOS:
+un **conjunto de estrategias** que permiten **logros financieros** contemplando ciertos **riesgos..**
+
+
+Una característica común de estos problemas es que existen dos grandes fuentes de **incertidumbre**, por un lado, la incertidumbre resultante del lado de los pasivos en la ecuación, por ejemplo, derivada de una financiación insuficiente. 
+
+Y por otro, la incertidumbre de la rentabilidad de los activos. En conjunto, constituyen una dificultad no trivial sobre cómo gestionar el riesgo en el modelo aplicado por la institución financiera. 
 
 
 ---
 
 
-<div class="my-logo-right"></div>
+
 
 # Motivación
 
@@ -184,14 +207,20 @@ SOA (1998)
 knitr::include_graphics("img/moti1.jpg")
 ```
 
+???
 
+Entonces... bajo la dinámica de estos tres aspectos.. las empresas deben de encaminarse a realizar un análisis más próximo del entorno en el que se ubican para evitar efectos negativos a la estructura financiera del balance.
+
+Los administradores o gerentes se enfrentan entonces al gran reto de aprovechar las oportunidades del mercado, manteniendo muy cuidadosamente la exposición a los riesgos dentro de la tolerancia que admita la entidad.
+
+Aquí el administrador de activos y pasivos, como lo planteo es el director de la orquesta!! Tiene la gran responsabilidad de maximizar el rendimiento, gestionando correctamente los distintos tipos de riesgo que se puedan presentar.
 
 
 ---
 
 
 
-<div class="my-logo-right"></div>
+
 
 
 # Motivación
@@ -242,12 +271,25 @@ Identificar los determinantes de la rentabilidad y anticiparse a sus fluctuacion
 
 ???
 
+Bueno, enfocandonos en los conceptos de eficiencia financiera, podemos tener en cuenta la rentabilidad que se define como....
 
+Si bien una entidad o gerente debe enfocarse en tener presente la estructura del balance... es importante preguntarse que puede determinar cambios en dicha estructura que amerite cambios en las estrategias de gestión...
+
+Ahora, imaginate a un gerente que pueda tener conocimiento de qué hacer ante un choque inesperado,, es decir, que pueda anticiparse por ejemplo ante la subida de las tasas de interés, y sepa como responder o que estrategias enmarcar para la empresa.
+
+Se hace entonces necesario identificar qué aspectos se relacionan con dicha estructura financera en el balance. Aquí es dónde aparecen los determinantes de tipo interno y externo..
+
+Siendo determinantes de tipo interno.. el tamaño de la empresa medido desde su capitalización de mercado, el tiempo de la empresa, el apalancamiento, en fin, característica netamente idiosicráticas que de una u otra manera están como información primaria para el geerente, es decir bajo conocimiento constante de gerencia. 
+
+Ahora bien, no solo condiciones internas afectan a una empresa. Los determinantes externo también subyacen como fuerzas comunes a empresas de un sector específico, o de un país específico, etc.. por eso tenemos aspectos como los precios de los combustibles, la inflación, la tasa de interés, tasa de cambio, etc..
+
+
+Se hace necesario entonces... estudiar en qué grado estos aspectos impactan la eficiencia financiera de una empresa. Más aun comprender de una mejor manera los determinantes externos, puesto que estos presentan mayor incertidumbre para la gerencia, si los comparamos con los determinantes internos que continuamente se encuentran bajo supervisión de la entidad.
 
 
 ---
 
-<div class="my-logo-right"></div>
+
 
 
 # Motivación
@@ -276,12 +318,24 @@ Identificar los determinantes de la rentabilidad y anticiparse a sus fluctuacion
 
 ]
 
+
+???
+
+
+Durante las últimas décadas, es importante señalar que se ha incrementado la globalización de los mercados financieros, la intensificación de la competencia en los mercados bancarios nacionales e internacionales y la introducción de productos  complejos con alta volatilidad y riesgo. 
+
+Es por este nuevo entorno económico que las  instituciones a nivel mundial enfrentan nuevos desafíos para revisar sus estrategias, para proceder tanto a las innovaciones tecnológicas como a las fusiones y adquisiciones, así como para hacer frente a choques macroeconómicos; los cuales pueden afectar las decisiones en la estructura de capital. 
+
+
+En esta interconexion de mercados, empresas, gerencia y stakeholders, es vital estudiar las sensibilidades del desempeño financiero ante cambios en el entorno, principalmente escenarios que subyacen a la rentabilidad empresarial y que es común a las todas las instituciones. Buscamos primeramente identificar la existencia de factores macroeconómicos que determinen patrones generales en los indicadores financieros, para que la gestión del balance financiero sea equilibrada.
+
+
 ---
 
 
 name: Literatura
 class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
+
 
 
 # Revisión de literatura
@@ -294,7 +348,7 @@ class: inverse, mline, center, middle
 
 
 
-<div class="my-logo-right"></div>
+
 
 # Revisión de literatura
 
@@ -311,7 +365,7 @@ knitr::include_graphics("img/literatura.jpg")
 
 ---
 
-<div class="my-logo-right"></div>
+
 
 # Revisión de literatura
 
@@ -353,7 +407,7 @@ knitr::include_graphics("img/literatura.jpg")
 
 ---
 
-<div class="my-logo-right"></div>
+
 
 # Revisión de literatura
 
@@ -396,7 +450,7 @@ knitr::include_graphics("img/literatura.jpg")
 
 
 
-<div class="my-logo-right"></div>
+
 
 # Revisión de literatura
 
@@ -455,7 +509,7 @@ Este grupo de factores incluye determinantes macroeconómicos fundamentales y fa
 ---
 
 
-<div class="my-logo-right"></div>
+
 
 
 # Revisión de literatura
@@ -505,7 +559,7 @@ Este grupo de factores incluye determinantes macroeconómicos fundamentales y fa
 
 name: Objetivos
 class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
+
 
 
 # Objetivos
@@ -693,7 +747,7 @@ class: inverse
 name: Methodology
 
 class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
+
 
 
 
@@ -707,7 +761,7 @@ class: inverse, mline, center, middle
 
 
 
-<div class="my-logo-right"></div>
+
 
 
 # Metodología
@@ -815,7 +869,7 @@ knitr::include_graphics("img/obj4.jpg")
 name: Results
 
 class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
+
 
 
 
@@ -828,7 +882,7 @@ class: inverse, mline, center, middle
 
 
 
-<div class="my-logo-right"></div>
+
 
 # Productos
 
@@ -894,9 +948,6 @@ knitr::include_graphics("img/reports.jpg")
 
 
 
-
-<div class="my-logo-right"></div>
-
 # Productos
 
 
@@ -940,7 +991,7 @@ knitr::include_graphics("img/rueda.png")
 
 
 
-<div class="my-logo-right"></div>
+
 
 # Productos
 
@@ -996,7 +1047,7 @@ knitr::include_graphics("img/conf_claio.jpg")
 
 
 
-<div class="my-logo-right"></div>
+
 
 # Productos
 
@@ -1013,7 +1064,7 @@ knitr::include_graphics("img/rueda.png")
 
 .pull-right-wide[
 Análisis del desempeño financiero en empresas del sector de la electricidad en Latinoamérica: una comparativa a nivel de mercados emergentes y desarrollados en Colombia
-- Tesis Maestría en Ingeniería Industrial - *Universidad del Valle*.
+- Trabajo de grado. Maestría en Ingeniería Industrial - *Universidad del Valle*.
 ]
 
 
@@ -1027,7 +1078,7 @@ knitr::include_graphics("img/rueda.png")
 
 .pull-right-wide[
 Modelación no lineal (DLNM) del efecto de factores macroeconómicos sobre el índice MSCI Colombia de capitalización bursátil en el mercado de valores para el periodo 2001 a 2020
-- Tesis Pregrado en Estadística - *Universidad del Valle*
+- Trabajo de grado. Pregrado en Estadística - *Universidad del Valle*
 ]
 
 
@@ -1041,7 +1092,7 @@ knitr::include_graphics("img/rueda.png")
 
 .pull-right-wide[
 Modelación del efecto del precio de gas natural sobre el precio de la electricidad: Alemania en tiempo de crisis
-- Tesis Pregrado en Estadística - *Universidad del Valle*
+- Trabajo de grado. Pregrado en Estadística - *Universidad del Valle*
 ]
 
 ---
@@ -1052,7 +1103,7 @@ Modelación del efecto del precio de gas natural sobre el precio de la electrici
 
 class: inverse, mline, center, bottom
 
-<div class="my-logo-right"></div>
+
 
 
 <br>
