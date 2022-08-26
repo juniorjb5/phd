@@ -101,7 +101,7 @@ Universitat Oberta de Catalunya
 
 Buenas tardes, el día de hoy socializaré mi propuesta de investigación doctoral en tópicos de activos y pasivos: una visión comparativa entre economías emergentes y desarrolladas.
 
-Esta tesis doctoral está bajo la dirección del profesor Diego Manotas de la Escuela de Ing. Industrial de la Universidad del Valle. Y el profesor Jorge M. Uribe de la Universitat Oberta de Catalunya..
+Esta propuesta doctoral está bajo la dirección del profesor Diego Manotas de la Escuela de Ing. Industrial de la Universidad del Valle. Y el profesor Jorge M. Uribe de la Universitat Oberta de Catalunya..
 
 Este trabajo de investigación está integrado al grupo de investigación GIFINC de la Esc. de Ing. Ind.
 
@@ -190,9 +190,6 @@ Nótese que el concepto en si mismo.. presenta interacción entre TRES GRANDES A
 un **conjunto de estrategias** que permiten **logros financieros** contemplando ciertos **riesgos..**
 
 
-Una característica común de estos problemas es que existen dos grandes fuentes de **incertidumbre**, por un lado, la incertidumbre resultante del lado de los pasivos en la ecuación, por ejemplo, derivada de una financiación insuficiente. 
-
-Y por otro, la incertidumbre de la rentabilidad de los activos. En conjunto, constituyen una dificultad no trivial sobre cómo gestionar el riesgo en el modelo aplicado por la institución financiera. 
 
 
 ---
@@ -211,7 +208,12 @@ knitr::include_graphics("img/moti1.jpg")
 
 Entonces... bajo la dinámica de estos tres aspectos.. las empresas deben de encaminarse a realizar un análisis más próximo del entorno en el que se ubican para evitar efectos negativos a la estructura financiera del balance.
 
-Los administradores o gerentes se enfrentan entonces al gran reto de aprovechar las oportunidades del mercado, manteniendo muy cuidadosamente la exposición a los riesgos dentro de la tolerancia que admita la entidad.
+Es aquí entonces.. dónde los administradores o gerentes se enfrentan al gran reto de aprovechar las oportunidades del mercado, manteniendo muy cuidadosamente la exposición a los riesgos dentro de la tolerancia que admita la entidad.
+
+Una característica común de estos problemas es que existen dos grandes fuentes de **incertidumbre**, por un lado, la incertidumbre resultante del lado de los pasivos en la ecuación, por ejemplo, derivada de una **financiación insuficiente**. 
+
+Y por otro, la incertidumbre de la **rentabilidad de los activos**. En conjunto, este escenario constituye una dificultad, digamoslo... no trivial... sobre cómo gestionar el riesgo en el modelo o estrategia que aplique una institución financiera o empresa en general. 
+
 
 Aquí el administrador de activos y pasivos, como lo planteo es el director de la orquesta!! Tiene la gran responsabilidad de maximizar el rendimiento, gestionando correctamente los distintos tipos de riesgo que se puedan presentar.
 
@@ -1052,7 +1054,7 @@ knitr::include_graphics("img/conf_claio.jpg")
 # Productos
 
 
-### Tesis (En desarrollo)
+### Dirección de trabajos de grado (En desarrollo)
 
 
 .pull-left-narrow[

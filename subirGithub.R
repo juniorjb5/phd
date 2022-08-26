@@ -8,7 +8,7 @@
 
 
 git add .
-git commit -m "Slides_11"
+git commit -m "Slides_12"
 git push origin main
 
 
@@ -40,3 +40,12 @@ build_pdf("PDF_ICEE_2022.html", complex_slides = TRUE, partial_slides = TRUE)
 .center[<img src="img/obj4.JPG" width="900px" />]
 .pull-left-narrow[.center[<img src="img/Entramado.PNG" width="50px"/>]]
 .center[<img src="img/NAJEF.JPG" width="50px"/>]
+
+#Color Verde
+#23373B
+
+
+<div class="my-logo-center"></div>
+  
+  
+  <div class="my-logo-right"></div>
